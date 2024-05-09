@@ -50,6 +50,10 @@ body{
 .button-container {
     width:100%;
 }
+.menusDiv a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Inherit color from parent */
+}
 
 /* .button-container button {
     position: absolute;
