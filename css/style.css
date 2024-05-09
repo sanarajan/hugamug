@@ -1,31 +1,24 @@
 body{
     font-family:"PT Sans Caption", sans-serif;
-    width:100%;
-    
+    width:100%;    
 }
 .navbar-toggler {
     display: none;
-
   }
   .toggle-text{
-    color:#fff;
- 
+    color:#fff; 
     color: #fff;   
     font-family:"PT Sans Caption", sans-serif;
     font-weight: 400;
    font-style: normal;
     font-size: 11.5px; 
-    letter-spacing: 0.01px;
-    
-  }
-  
-.nav-menu{
-   
+    letter-spacing: 0.01px;    
+  }  
+.nav-menu{   
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
-    
+    z-index: 1000;    
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6));
 	padding: .5px;
     color:#fff;
@@ -35,18 +28,13 @@ body{
     font-weight: 400;
    font-style: normal;
     font-size: 11px; 
-    /* letter-spacing: 0.001px; */
-    padding-right: 7rem;;
-   
-	/* transition: all .7s; */
+    padding-right: 7rem;;   
 }
 .navbar-toggler-icon{
     height:0.5em;
     width:0.5em;
-    margin-bottom: 1em;
-    
+    margin-bottom: 1em;    
 }
-
 .button-container {
     width:100%;
 }
@@ -54,25 +42,10 @@ body{
   text-decoration: none; /* Remove underline */
   color: #fff; /* Inherit color from parent */
 }
-
-/* .button-container button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border:0;
-    color:white;
-    z-index:999;
-   
-   
-  } */
   .mySlides{
     height:100%;
     width:100%;
-  }
-  
-  
-  
-  
+  }   
   .button-container.w3-display-right {
     z-index:1003;
     top:50%;
@@ -80,27 +53,14 @@ body{
     background-color:rgba(255, 255, 255, .15); 
     background:url(../images/arrow.png) no-repeat -89px -5px;
     color:#fff;
-
   }
-
-  /* .w3-display-container:hover + .w3-display-left {
-    margin-left:100vm;
-}
-.w3-display-container:hover + .w3-display-right {
-  margin-left:100px;
-} */
  .button-container
  .bannercap {
     position: absolute;
     top: 85%;
     z-index: 999;
     right: auto;
-    left: 50%;
-    /* bottom:10px;
-    width:90%;
-    max-width: 300px;
-    padding: 10px; */
-    
+    left: 50%;    
     transform: translateX(-50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -122,7 +82,6 @@ body{
     margin-top:10px;
   }
  .left-head{
-
    height:9rem;
     border-right: 1px solid #000;
     position: relative;
@@ -131,24 +90,15 @@ body{
  .left-head p{
     text-align: right;
     padding: 0px 0px 0px 0px;
-    /* margin: 31px 0px 0px 0px; */
  }
 #logo{
     position:absolute;
-    /* top:20; */
-    top:6.4%;
-    /* margin-top: -39.3rem; */
-    /* margin-top: 10px; */
-    /* margin-bottom: 71px; */
+    top:6.4%;   
     margin-left: 37px;
     z-index: 999;
-    cursor:pointer;
-    
+    cursor:pointer;    
 }
-
-
-.readmrbackgrnd:hover {
- 
+.readmrbackgrnd:hover { 
   background: url('../images/redrdmore.png') no-repeat center top;
   text-decoration: none;
   color:#fff;
@@ -168,17 +118,13 @@ body{
     font-size: 16px;
     transition: all 800ms ease-out;
     text-decoration: none;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
  }
  .w3-content{
-    /* position:absolute; */
     z-index:-1;
-    /* old -0.3. */
     margin-top: 0.7px;
     margin-bottom: 5px;
     width:100% !important;
-
  }
  .icon{
     z-index: 999;
@@ -199,16 +145,12 @@ body{
 .hamburger{
   cursor: pointer;
 }
-
 .redimgone .carousel-text:hover {
-  /* transform: translateY(-890px);  Move the text up by 5 pixels */
- margin-top:-20px;
- 
+ margin-top:-20px; 
 }
 .menui{
     background: #fff;
     transition: 0.6s ease;
-    /* transition-timing-function: cubic-bezier(.75, 0, .29, 1.01); */
     margin-top: 10px;
     position: absolute;
     transition: 0.6s ease;
@@ -239,7 +181,6 @@ body{
 h4 {
   cursor: pointer;
   height: 18rem;
-  /* background: #009688; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,8 +196,7 @@ h4 {
   text-align: center;
   margin-top:80px;
 }
-.carousel-text{
-  
+.carousel-text{  
   font-size: 41px;
     position: absolute;
     top: 39%;
@@ -274,31 +214,22 @@ h4 {
        transition: margin-top 2s cubic-bezier(30, 34, 36, 40);
 }
 .item{
-  /* width:298.5px; */
   width:377.5px;
   height:19rem;
   margin-top:2rem;
   margin-left:.1rem;
   position: relative;
-  /* margin: 0 5px !important; */
   
 }
-
-
 .carosel-desc{
   margin-top:-48px;
 }
-
 .carosel-desc a{
   font-size: .93rem;
   text-decoration: none;
   color:#fff;
   letter-spacing: 0px;
-  font-weight:0;
-  /* margin-top:4rem; */
-
-
-  
+  font-weight:0;  
 }
 .owl-carousel .owl-wrapper-outer {
   overflow: hidden;
@@ -306,26 +237,19 @@ h4 {
   width: 100%;
 }
 .owl-carousel {
-  /* display: none; */
   position: relative;
   width: 100%;
   margin-top: -35px;
-  /* -ms-touch-action: pan-y; */
 }
-/* .owl-demo3 .item {
  
-} */
-.fadeAndMove {
- 
-  
+.fadeAndMove {  
   opacity: 0; /* Initially hidden */
   animation: fadeAnimation 10s ease ; /* 50 second fade and move animation */
 }
 
 @keyframes fadeAnimation {
   0% {
-    opacity: 0;
-   
+    opacity: 0;   
   }
   4% {
     opacity: 1;
@@ -357,25 +281,17 @@ h4 {
   outline: none; /* Remove default outline */
   font-weight: 10px;
 }
-
-/* Optionally, add hover effect */
 .owl-nav button:hover {
   color: gray; /* Change button color on hover */
 } 
-
-
 .owl-next, .owl-prev {
     width: 50px;
     height: 50px;
-    /* margin: 2px !important; */
     background: url(../images/prev.png) no-repeat center center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40px !important;
-    /* text-indent: -999999px;  */
-    /* /* position: absolute; */
     font-size: 0;
-    /* color: transparent; */
     border-radius: 5px;
 }
 .cofee-h1{
@@ -391,14 +307,11 @@ h4 {
     margin-left:227px;
 }
 .background1{
-  /* background-size: cover; */
   background: url(../images/socialbackgnd.png) repeat;
   height: 478px;
   width: 100%;
-  position: relative;
-  
+  position: relative;  
 }
-
 .background2{
   background: url(../images/socialba.png) no-repeat center center;
     height: 100%;
@@ -443,7 +356,6 @@ h4 {
   width: 680px;
   margin-left: 22px;
   list-style: none;
-    /* margin: 0 auto; */
 }
 .nav-pills>li {
   float: left;
@@ -462,9 +374,7 @@ h4 {
   font-size: 12px;
   color:#5a5a5a;
   letter-spacing: 0;
-  /* padding:16px 5x 30px 5px; */
   border-top: 1px dotted #c0c0c0;
-  /* margin-top:1vw; */
   text-align: center;
   width:100%;
   padding-top: 18px;;
@@ -475,7 +385,6 @@ h4 {
     padding-top: 24px;
     padding-bottom: 10px;
 }
-
 .w3-display-container:hover .button-div {
   transform: scaleX(-0.95); 
 }
@@ -493,13 +402,11 @@ h4 {
 #secondMenu.open .bottom-menu {
     display: none;
 }
-
 /* Style the mid-menu to resemble a cross when the menu is open */
 #secondMenu.open .mid-menu {
     background-color: #fff; /* Change color to white or any desired color */
     transform: rotate(45deg);
 }
-
 /* Optional: Add transition for smooth animation */
 #secondMenu .menui {
     transition: all 0.3s ease;
@@ -519,16 +426,13 @@ h4 {
   .navbar-toggler {
     display: none;
   }
-
   @media (max-width: 768px) {
-
     /* reverse row */
     .reverse {
       display: flex;
       flex-direction: column-reverse;
       /* Reverses the order of columns on smaller screens */
     }
-
     .left-head {
       padding-top: 21px;
       text-align: left;
@@ -536,45 +440,31 @@ h4 {
     }
 
     .left-head p {
-      /* text-align: right; */
       text-align: left;
       padding: 16px 6px 0px 9px;
       border-top: 1px solid black;
       border-right-width: 10px;
       border-left-width: 10px;
-
     }
-
     .readmrbackgrnd {
       display: block;
       float: left;
-      /* Add some left margin */
     }
-
     .left-head,
     .righthead {
       width: 100%;
-      /* Make both columns take full width on smaller screens */
     }
-
-
     /* reverse row */
-
     .coffe-right {
-
       margin-top: 13px !important;
     }
-
     .cofee-h1 {
       padding-left: 1px;
       border-left: none;
       margin-left: 0px;
       padding-top: 0px;
       padding-bottom: 2px;
-
-      /* margin-left:227px; */
     }
-
     .coffe-right p {
       padding-bottom: 60px;
       text-align: left !important;
@@ -582,20 +472,14 @@ h4 {
       padding-top: 24px;
       margin-top: 6vw;
       font-size: 12px;
-
-
     }
-
     .nav-menu {
       width: 800px;
-
     }
-
     .sec-contain {
       padding-bottom: 20vw;
       height: 266px;
     }
-
     .footer-end-text {
       text-align: center;
     }
@@ -609,124 +493,84 @@ h4 {
     .logo {
       width: 100px;
       margin-top: 23px;
-
     }
-
     .toggle-text {
       display: none;
     }
-
     .nav-menu {
       width: 100%;
-
     }
-
     .nav-item a {
       letter-spacing: 0;
       font-size: 11px;
       font-family: PT Sans Caption, sans-serif;
     }
-
-
     .footer-menu {
       width: 100%;
       margin: 0 auto;
       padding: 0;
     }
-
     .menu-bar {
-
       width: 100%;
     }
-
     .nav-pills {
       width: 100%;
     }
-
-
   }
-
   @media (max-width: 570px) {
     .footer-end-text {
       text-align: center;
     }
-
     .toggle-text {
       display: block;
     }
-
     .left-head {
-
-
       border-right: none;
     }
-
     .logo {
       width: 100px;
     }
-
-
-
   }
-
   @media (min-width: 769px) {
     .toggle-text {
       display: none;
     }
-
   }
-
   @media (min-width: 590px) {
     .toggle-text {
       display: none;
     }
-
-
   }
-
-
   @media (max-width: 991px) {
     .footer-end-text {
       text-align: center;
     }
-
     .bannercap {
       top: 75%;
     }
-
   }
-
   .modal-dialog {
     max-width: 350px;
     margin-top: 10%;
-    /* Adjust the maximum width of the modal */
-
   }
-
   @media (max-width: 576px) {
     .modal-dialog {
       max-width: 350px;
       margin-top: 10%;
-      /* Adjust for smaller screens */
     }
   }
-
   @media (min-width: 768px) {
     .modal-dialog {
       width: 600px;
       margin: 30px auto;
-      /* Adjust for smaller screens */
     }
   }
-
   @media (min-width: 992px) {
     .modal-dialog {
       width: 600px;
       margin: 30px auto;
-      /* Adjust for smaller screens */
     }
   }
-
   .form-control {
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
@@ -734,26 +578,21 @@ h4 {
   .mySlides {
     display: none;
   }
-
   .navbar-toggler {
     display: none;
   }
-
   @media (max-width: 768px) {
-
     /* reverse row */
     .reverse {
       display: flex;
       flex-direction: column-reverse;
       /* Reverses the order of columns on smaller screens */
     }
-
     .left-head {
       padding-top: 21px;
       text-align: left;
       width: 100%;
     }
-
     .left-head p {
       /* text-align: right; */
       text-align: left;
@@ -761,7 +600,6 @@ h4 {
       border-top: 1px solid black;
       border-right-width: 10px;
       border-left-width: 10px;
-
     }
 
     .readmrbackgrnd {
@@ -769,31 +607,23 @@ h4 {
       float: left;
       /* Add some left margin */
     }
-
     .left-head,
     .righthead {
       width: 100%;
       /* Make both columns take full width on smaller screens */
     }
-
-
     /* reverse row */
-
     .coffe-right {
-
       margin-top: 13px !important;
     }
-
     .cofee-h1 {
       padding-left: 1px;
       border-left: none;
       margin-left: 0px;
       padding-top: 0px;
       padding-bottom: 2px;
-
       /* margin-left:227px; */
     }
-
     .coffe-right p {
       padding-bottom: 60px;
       text-align: left !important;
@@ -801,127 +631,85 @@ h4 {
       padding-top: 24px;
       margin-top: 6vw;
       font-size: 12px;
-
-
     }
-
     .nav-menu {
       width: 800px;
-
     }
-
     .sec-contain {
       padding-bottom: 20vw;
       height: 266px;
     }
-
     .footer-end-text {
       text-align: center;
     }
   }
-
   @media (max-width: 770px) {
     .footer-end-text {
       text-align: center;
     }
-
     .logo {
       width: 100px;
       margin-top: 23px;
-
     }
-
     .toggle-text {
       display: none;
     }
-
     .nav-menu {
       width: 100%;
-
     }
-
     .nav-item a {
       letter-spacing: 0;
       font-size: 11px;
       font-family: PT Sans Caption, sans-serif;
     }
-
-
     .footer-menu {
       width: 100%;
       margin: 0 auto;
       padding: 0;
     }
-
     .menu-bar {
-
       width: 100%;
     }
-
     .nav-pills {
       width: 100%;
     }
-
-
   }
-
   @media (max-width: 570px) {
     .footer-end-text {
       text-align: center;
     }
-
     .toggle-text {
       display: block;
     }
-
     .left-head {
-
-
       border-right: none;
     }
-
     .logo {
       width: 100px;
     }
-
-
-
   }
-
   @media (min-width: 769px) {
     .toggle-text {
       display: none;
     }
-
   }
-
   @media (min-width: 590px) {
     .toggle-text {
       display: none;
     }
-
-
   }
-
-
   @media (max-width: 991px) {
     .footer-end-text {
       text-align: center;
     }
-
     .bannercap {
       top: 75%;
     }
-
   }
-
   .modal-dialog {
     max-width: 350px;
     margin-top: 10%;
-    /* Adjust the maximum width of the modal */
-
   }
-
   @media (max-width: 576px) {
     .modal-dialog {
       max-width: 350px;
@@ -929,7 +717,6 @@ h4 {
       /* Adjust for smaller screens */
     }
   }
-
   @media (min-width: 768px) {
     .modal-dialog {
       width: 600px;
@@ -937,7 +724,6 @@ h4 {
       /* Adjust for smaller screens */
     }
   }
-
   @media (min-width: 992px) {
     .modal-dialog {
       width: 600px;
@@ -945,12 +731,10 @@ h4 {
       /* Adjust for smaller screens */
     }
   }
-
   .form-control {
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
   }
-
   .backgrnd_rotate {
     transform: rotate(90deg);
     background: url(../images/togglehover.png) no-repeat center center;
