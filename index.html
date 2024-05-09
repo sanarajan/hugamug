@@ -35,12 +35,14 @@
 
 <body>
   <header class="header-bar">
-    <nav class="navbar navbar-expand-sm navbar-light bg-dark  bg-transparent nav-menu ">
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark  bg-transparent nav-menu " id="navMenu">
       <div class="container-fluid ">
         <div></div>
         <!-- header navmenu section start -->
         <h6 class="toggle-text" onclick="shopOnline()" style="margin-left:200px;cursor:pointer">Shop Online</h6>
-        <a style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#exampleModal" > <h6 class="toggle-text"><i class="fa fa-user"></i> Login</h6></a>
+        <a style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <h6 class="toggle-text"><i class="fa fa-user"></i> Login</h6>
+        </a>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ">
@@ -83,7 +85,7 @@
       <div class="row menusDiv">
         <div class="col-12 col-sm-12 col-md-12 text-center text-white pt-5 mb-5 border-bottom-1">
 
-         <img src="images/toggle-logo.png" alt="Your Image" style="width:150px;height:120px">
+          <img src="images/toggle-logo.png" alt="Your Image" style="width:150px;height:120px">
         </div>
         <div class="col-12 col-sm-12 col-md-12 text-center text-white fs-2" style="margin-bottom: -1rem;">
           <a href="https://sanarajan.github.io/hugamug/">
@@ -166,7 +168,7 @@
             </div>
           </div>
           <div id="logo">
-            <a href="https://sanarajan.github.io/hugamug/">  <img src="images/hugamuglogo.png" class="logo"></a>
+            <a href="https://sanarajan.github.io/hugamug/"> <img src="images/hugamuglogo.png" class="logo"></a>
           </div>
         </div>
       </div>
@@ -175,53 +177,6 @@
   <!-- banner section end -->
   <!-- body section start -->
   <section>
-    <!-- login modal start -->
-    <section>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content p-3 mt-5" style="border-radius: unset;">
-            <div class="modal-header " style="border-bottom: 0px;">
-              <h1 style="font-family: Playfair Display, serif;margin-left:2.5rem;" class="modal-title fs-4 mt-5"
-                id="exampleModalLabel">Login to Your Account</h1>
-            </div>
-            <div class="modal-body  pt-0">
-              <div class="text-center">
-                <p class="pb-0" style="letter-spacing: 0; font-family: Playfair Display, serif;font-size: 5px!important;"></p>You can also login with</p>
-                <a
-                  href="https://www.facebook.com/login.php?skip_api_login=1&api_key=241024253059918&kid_directed_site=0&app_id=241024253059918&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.0%2Fdialog%2Foauth%3Fclient_id%3D241024253059918%26redirect_uri%3Dhttps%253A%252F%252Fhugamug.in%252Fsignup.php%26state%3D40f991e7e17754ba70dde3d901ebb3ac%26sdk%3Dphp-sdk-4.0.9%26scope%3Dpublic_profile%252C%2Bpublish_actions%252C%2Bemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8e35e22b-15a6-45ae-9a48-bebb4e00d91c%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fhugamug.in%2Fsignup.php%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D40f991e7e17754ba70dde3d901ebb3ac%23_%3D_&display=page&locale=ml_IN&pl_dbl=0"><button
-                    style="background-color: #3b5998 !important;color:#fff;font-size:13px" type="button" class="btn btn-info px-2 "><i
-                      class="fa fa-facebook"></i> Facebook</button></a>
-                <a
-                  href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fhugamug.in%2Fsignup.php&client_id=662323525530-qcg8mpa5doe1ia4quub8uefnumj7ammf.apps.googleusercontent.com&scope=email%20profile&access_type=online&approval_prompt=auto&service=lso&o2v=1&ddm=0&flowName=GeneralOAuthFlow">
-                  <button style="background-color: #dc4a38 !important;color:#fff;font-size:13px" type="button" class="btn btn-info  px-2 "><i
-                      class="fa fa-google-plus"></i> Google</button></a>
-                <div>
-                  <form class="ps-3 pe-3">
-                    <div class="mb-3">
-                      <label for="recipient-name" class="col-form-label mb-0 mt-1">or</label>
-                      <input type="text" style="background-color: #fff;" class="form-control p-2 " id="recipient-name"
-                        placeholder="Email" required>
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control p-2" id="recipient-name" placeholder="Password" required>
-                    </div>
-                </div>
-                <div class="modal-body text-center p-y" style="margin-top: -1rem;padding-bottom: 1px;">
-                  <button style="width:100%;background-color: #e1101b;" type="submit"
-                    class="btn btn-primary p-3">Login</button>
-                </div>
-                </form>
-                <div style="text-align:left" class="ps-4">
-                  <a href="https://hugamug.in/signup.php"
-                    style="font-size:10px;margin-right: 2rem;color:#b3a9a9">Register</a> <a
-                    style="font-size:10px;color:#b3a9a9" href="https://hugamug.in/forgot_password.php"
-                    style="margin-left:25px">Forgot Password</a>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>
-    <!-- end modal login -->
     <div class="container sec-contain" style="padding-bottom:0.5vw;margin-top:5.5rem;position:relative;">
       <div class="row reverse">
         <div class="col-12 col-md-6 left-head">
@@ -323,8 +278,8 @@
               Continental, Thai, South American and Australian cuisines. In a year since inception, Hug a Mug has been
               able to strike the right chord with the young crowd and
               has also become popular with the older generation.</p>
-            <a style="margin-top:-57px;margin-right: 82px;" class="readmrbackgrnd" href="https://hugamug.in/outlet.php"><i
-                class="fa fa-angle-double-right"></i></a>
+            <a style="margin-top:-57px;margin-right: 82px;" class="readmrbackgrnd"
+              href="https://hugamug.in/outlet.php"><i class="fa fa-angle-double-right"></i></a>
           </div>
         </div>
       </div>
@@ -362,8 +317,8 @@
   <section>
     <footer>
       <!-- Footer content goes here -->
-      <a href="https://sanarajan.github.io/hugamug/" style="margin:50vw 50vw 50vw 46vw;"> <img style="margin-top: 15px ;width:95px;height:75px;"
-          class="img-responsive" src="images/footlogo.png"> </a>
+      <a href="https://sanarajan.github.io/hugamug/" style="margin:50vw 50vw 50vw 46vw;"> <img
+          style="margin-top: 15px ;width:95px;height:75px;" class="img-responsive" src="images/footlogo.png"> </a>
       <div class="row" style="margin-right:0px;">
         <div class="footer-menu">
           <div class="menu-bar">
@@ -406,6 +361,53 @@
       </mask>
     </defs>
   </svg>
+  <!-- modal -->
+  <section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content p-3 mt-5" style="border-radius: unset;">
+          <div class="modal-header " style="border-bottom: 0px;">
+            <h1 style="font-family: Playfair Display, serif;margin-left:2.5rem;" class="modal-title fs-4 mt-5"
+              id="exampleModalLabel">Login to Your Account</h1>
+          </div>
+          <div class="modal-body  pt-0">
+            <div class="text-center">
+              <p class="pb-0" style="letter-spacing: 0; font-family: Playfair Display, serif;font-size: 5px!important;">
+              </p>You can also login with</p>
+              <a
+                href="https://www.facebook.com/login.php?skip_api_login=1&api_key=241024253059918&kid_directed_site=0&app_id=241024253059918&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.0%2Fdialog%2Foauth%3Fclient_id%3D241024253059918%26redirect_uri%3Dhttps%253A%252F%252Fhugamug.in%252Fsignup.php%26state%3D40f991e7e17754ba70dde3d901ebb3ac%26sdk%3Dphp-sdk-4.0.9%26scope%3Dpublic_profile%252C%2Bpublish_actions%252C%2Bemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8e35e22b-15a6-45ae-9a48-bebb4e00d91c%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fhugamug.in%2Fsignup.php%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D40f991e7e17754ba70dde3d901ebb3ac%23_%3D_&display=page&locale=ml_IN&pl_dbl=0"><button
+                  style="background-color: #3b5998 !important;color:#fff;font-size:13px" type="button"
+                  class="btn btn-info px-2 "><i class="fa fa-facebook"></i> Facebook</button></a>
+              <a
+                href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fhugamug.in%2Fsignup.php&client_id=662323525530-qcg8mpa5doe1ia4quub8uefnumj7ammf.apps.googleusercontent.com&scope=email%20profile&access_type=online&approval_prompt=auto&service=lso&o2v=1&ddm=0&flowName=GeneralOAuthFlow">
+                <button style="background-color: #dc4a38 !important;color:#fff;font-size:13px" type="button"
+                  class="btn btn-info  px-2 "><i class="fa fa-google-plus"></i> Google</button></a>
+              <div>
+                <form class="ps-3 pe-3">
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label mb-0 mt-1">or</label>
+                    <input type="text" style="background-color: #fff;" class="form-control p-2 " id="recipient-name"
+                      placeholder="Email" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control p-2" id="recipient-name" placeholder="Password" required>
+                  </div>
+              </div>
+              <div class="modal-body text-center p-y" style="margin-top: -1rem;padding-bottom: 1px;">
+                <button style="width:100%;background-color: #e1101b;" type="submit"
+                  class="btn btn-primary p-3">Login</button>
+              </div>
+              </form>
+              <div style="text-align:left" class="ps-4">
+                <a href="https://hugamug.in/signup.php"
+                  style="font-size:10px;margin-right: 2rem;color:#b3a9a9">Register</a> <a
+                  style="font-size:10px;color:#b3a9a9" href="https://hugamug.in/forgot_password.php"
+                  style="margin-left:25px">Forgot Password</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
   <!-- scripts -->
   <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
     integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>

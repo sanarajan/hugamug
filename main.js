@@ -60,7 +60,7 @@ if (exampleModal) {
 function showMenu() {
   var x = document.getElementById("toggMenu");
   var fbuttn = document.getElementById("firstMenu");
-  var sbuttn = document.getElementById("secondMenu");
+  var sbuttn = document.getElementById("secondMenu"); 
   if (x.style.display === "none" || x.style.display === "") {
     x.style.display = "block";
     document.body.style.position = 'fixed';
@@ -69,7 +69,7 @@ function showMenu() {
     sbuttn.style.display = "block";
     x.style.zIndex = "999"; // Set a higher z-index to make sure the menu appears above other content
     sbuttn.classList.add("rotate-animation");
-    fbuttn.classList.remove("rotate-animation");
+    fbuttn.classList.remove("rotate-animation");    
   } else {
     x.style.display = "none";
     document.body.style.position = 'static';
@@ -77,10 +77,9 @@ function showMenu() {
     fbuttn.style.display = "block";
     sbuttn.style.display = "none";
     sbuttn.classList.remove("rotate-animation");
-    fbuttn.classList.add("rotate-animation");
+    fbuttn.classList.add("rotate-animation");    
   }
 }
-
 function shopOnline() { 
   window.location.href = "https://hugamug.in/shoponline";
 }
