@@ -40,7 +40,7 @@
         <div></div>
         <!-- header navmenu section start -->
         <h6 class="toggle-text" onclick="shopOnline()" style="margin-left:200px;cursor:pointer">Shop Online</h6>
-        <a style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> <h6 class="toggle-text"><i class="fa fa-user"></i> Login</h6></a>
+        <a style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#exampleModal" > <h6 class="toggle-text"><i class="fa fa-user"></i> Login</h6></a>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ">
@@ -179,31 +179,31 @@
     <section>
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content pb-3" style="border-radius: unset;">
-            <div class="modal-header" style="border-bottom: 0px;">
+          <div class="modal-content p-3 mt-5" style="border-radius: unset;">
+            <div class="modal-header " style="border-bottom: 0px;">
               <h1 style="font-family: Playfair Display, serif;margin-left:2.5rem;" class="modal-title fs-4 mt-5"
                 id="exampleModalLabel">Login to Your Account</h1>
             </div>
             <div class="modal-body  pt-0">
               <div class="text-center">
-                <p style="font-family: Playfair Display, serif;"></p>You can also login with</p>
+                <p class="pb-0" style="letter-spacing: 0; font-family: Playfair Display, serif;font-size: 5px!important;"></p>You can also login with</p>
                 <a
                   href="https://www.facebook.com/login.php?skip_api_login=1&api_key=241024253059918&kid_directed_site=0&app_id=241024253059918&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.0%2Fdialog%2Foauth%3Fclient_id%3D241024253059918%26redirect_uri%3Dhttps%253A%252F%252Fhugamug.in%252Fsignup.php%26state%3D40f991e7e17754ba70dde3d901ebb3ac%26sdk%3Dphp-sdk-4.0.9%26scope%3Dpublic_profile%252C%2Bpublish_actions%252C%2Bemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8e35e22b-15a6-45ae-9a48-bebb4e00d91c%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fhugamug.in%2Fsignup.php%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D40f991e7e17754ba70dde3d901ebb3ac%23_%3D_&display=page&locale=ml_IN&pl_dbl=0"><button
-                    style="background-color: #3b5998 !important;color:#fff" type="button" class="btn btn-info"><i
+                    style="background-color: #3b5998 !important;color:#fff;font-size:13px" type="button" class="btn btn-info px-2 "><i
                       class="fa fa-facebook"></i> Facebook</button></a>
                 <a
                   href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fhugamug.in%2Fsignup.php&client_id=662323525530-qcg8mpa5doe1ia4quub8uefnumj7ammf.apps.googleusercontent.com&scope=email%20profile&access_type=online&approval_prompt=auto&service=lso&o2v=1&ddm=0&flowName=GeneralOAuthFlow">
-                  <button style="background-color: #dc4a38 !important;color:#fff" type="button" class="btn btn-info"><i
+                  <button style="background-color: #dc4a38 !important;color:#fff;font-size:13px" type="button" class="btn btn-info  px-2 "><i
                       class="fa fa-google-plus"></i> Google</button></a>
                 <div>
                   <form class="ps-3 pe-3">
                     <div class="mb-3">
-                      <label for="recipient-name" class="col-form-label mb-2 mt-2">or:</label>
-                      <input type="text" style="background-color: #fff;" class="form-control p-3 " id="recipient-name"
+                      <label for="recipient-name" class="col-form-label mb-0 mt-1">or</label>
+                      <input type="text" style="background-color: #fff;" class="form-control p-2 " id="recipient-name"
                         placeholder="Email" required>
                     </div>
                     <div class="mb-3">
-                      <input type="text" class="form-control p-3 " id="recipient-name" placeholder="Password" required>
+                      <input type="text" class="form-control p-2" id="recipient-name" placeholder="Password" required>
                     </div>
                 </div>
                 <div class="modal-body text-center p-y" style="margin-top: -1rem;padding-bottom: 1px;">
