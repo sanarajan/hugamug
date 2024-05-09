@@ -81,7 +81,6 @@ function showMenu() {
   }
 }
 
-function shopOnline() {
-  alert("HF");
+function shopOnline() { 
   window.location.href = "https://hugamug.in/shoponline";
 }

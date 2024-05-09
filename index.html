@@ -39,15 +39,15 @@
       <div class="container-fluid ">
         <div></div>
         <!-- header navmenu section start -->
-        <h6 class="toggle-text" onclick="shopOnline()" style="margin-left:200px;">Shop Online</h6>
-        <h6 class="toggle-text"><i class="fa fa-user"></i> Login</h6>
+        <h6 class="toggle-text" onclick="shopOnline()" style="margin-left:200px;cursor:pointer">Shop Online</h6>
+        <a style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> <h6 class="toggle-text"><i class="fa fa-user"></i> Login</h6></a>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ">
             <li class="nav-item ">
               <a class="nav-link active text-white"
                 style="letter-spacing: 0; font-size: 11px; font-family: PT Sans Caption, sans-serif;"
-                aria-current="page" href="#">Shop Online</a>
+                aria-current="page" onclick="shopOnline()" href="#">Shop Online</a>
             </li>
             <li class="nav-item">
               <a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"
@@ -83,7 +83,7 @@
       <div class="row menusDiv">
         <div class="col-12 col-sm-12 col-md-12 text-center text-white pt-5 mb-5 border-bottom-1">
 
-          <img src="images/toggle-logo.png" alt="Your Image" style="width:150px;height:120px">
+         <img src="images/toggle-logo.png" alt="Your Image" style="width:150px;height:120px">
         </div>
         <div class="col-12 col-sm-12 col-md-12 text-center text-white fs-2" style="margin-bottom: -1rem;">
           <a href="https://sanarajan.github.io/hugamug/">
@@ -133,14 +133,14 @@
           <div class="button-div"
             style="opacity:0.5;position:absolute;top:50%;z-index:1003;padding-right: 0px;padding-left: 99vw;  ">
 
-            <button style="background:url(../images/arrow.png) no-repeat -5px -2px;
+            <button style="background:url(images/arrow.png) no-repeat -5px -2px;
                      background-color:rgba(255, 255, 255, .15);;
                      color:#fff;    opacity:1;
                      ;font-size: 89px;border:0;font-weight: lighter;" class="  w3-display-left"
               onclick="plusDivs(-1)"><span aria-label="Previous" style="font-weight: lighter;"><i
                   class="fa fa-angle-left" aria-hidden="true"></i>
               </span></button>
-            <button class="  w3-display-right" style="background:url(../images/arrow.png) no-repeat -5px -2px;
+            <button class="  w3-display-right" style="background:url(images/arrow.png) no-repeat -5px -2px;
                      background-color:rgba(255, 255, 255, .15);opacity:1;
                      color:#fff;background-size: contain;text-shadow: 1px 1px 0 rgba(255,255,255,0.3);transition: all .3s ease;
                      padding-left: 2vw;font-size: 89px;border:0;font-weight: lighter;" onclick="plusDivs(1)"><span
@@ -166,7 +166,7 @@
             </div>
           </div>
           <div id="logo">
-            <img src="images/hugamuglogo.png" class="logo">
+            <a href="https://sanarajan.github.io/hugamug/">  <img src="images/hugamuglogo.png" class="logo"></a>
           </div>
         </div>
       </div>
